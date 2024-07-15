@@ -59,7 +59,9 @@ python app.py
 ## Features
 
 -Text Summarization: Users can input text, and the app will return a concise summary.
+
 -API Endpoint: Provides a RESTful API endpoint for text summarization.
+
 -Web Interface: Simple web-based interface for user interactions.
 
 ## License
