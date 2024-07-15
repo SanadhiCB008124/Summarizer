@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Summarizer Extension</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+    <div>
+        <textarea id="contentInput" placeholder="Enter text to summarize"></textarea>
+    </div>
+    <div>
+        <button id="clear">Clear</button>
+    </div>
+    <div>
+        <button id="summarizeButton">Summarize</button>
+    </div>
+    <div>
+        <div id="flex-container">
+            <button onclick="copyFunction()" id="copyButton">
+                <img src="icons/copy.png" id="copy"  >
+            </button>
+        </div>
+        <h3>Summary:</h3>
+        <p id="summaryOutput"></p>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>

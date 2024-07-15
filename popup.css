@@ -1,0 +1,58 @@
+.container {
+    width: 300px;
+    padding: 10px;
+    height: 500px;
+  }
+
+  #summaryOutput{
+    height: 100px;
+    width: 200px;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    border: 1px solid black;
+    padding: 5px;
+  }
+
+  #contentInput{
+    height: 100px;
+    width: 200px;
+  }
+  #clear{
+    display: block;
+    margin: 10px 0;
+    background-color: blue;
+    color: white; 
+    padding: 5px;
+    border-radius: 2px;
+  }
+
+
+  #summarizeButton {
+    display: block;
+    margin: 10px 0;
+    background-color: blue;
+    color: white; 
+    padding: 5px;
+    border-radius: 2px;
+  }
+  
+  #summarizeButton:hover{
+    background-color: darkblue;
+  }
+
+
+  #summaryOutput{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+
+  #copy{
+    width: 20px;
+    height: 20px;
+  }
+
+  #flex-container{
+    display: flex;
+    justify-content: flex-end; 
+    margin-bottom: 10px;
+  }
