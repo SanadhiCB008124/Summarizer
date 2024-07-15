@@ -55,7 +55,7 @@ python app.py
 
 #### ngrok
 - Provides a public URL for the Flask application.
-- 
+  
 ## Features
 
 -Text Summarization: Users can input text, and the app will return a concise summary.
