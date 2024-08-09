@@ -56,11 +56,6 @@ p {
   background-color: darkblue;
 }
 
-#copy {
-  width: 20px;
-  height: 20px;
-}
-
 #flex-container {
   display: flex;
   justify-content: flex-end; 
