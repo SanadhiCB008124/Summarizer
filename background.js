@@ -3,4 +3,3 @@ chrome.action.onClicked.addListener((tab) => {
       console.log('Content extracted:', response.content);
     });
   });
-  
